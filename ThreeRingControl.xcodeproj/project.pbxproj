@@ -10,6 +10,15 @@
 		49116AF31FC2C6E700BD73D2 /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49116AE91FC2C6E700BD73D2 /* ThreeRingControl.framework */; };
 		49116AF81FC2C6E700BD73D2 /* ThreeRingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49116AF71FC2C6E700BD73D2 /* ThreeRingControlTests.swift */; };
 		49116AFA1FC2C6E700BD73D2 /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 49116AEC1FC2C6E700BD73D2 /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49116B0B1FC2C78200BD73D2 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49116B031FC2C78100BD73D2 /* RingTip.swift */; };
+		49116B0C1FC2C78200BD73D2 /* Fanfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49116B041FC2C78100BD73D2 /* Fanfare.swift */; };
+		49116B0D1FC2C78200BD73D2 /* ThreeRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49116B051FC2C78100BD73D2 /* ThreeRingView.swift */; };
+		49116B0E1FC2C78200BD73D2 /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49116B061FC2C78100BD73D2 /* RingLayer.swift */; };
+		49116B0F1FC2C78200BD73D2 /* CircularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49116B071FC2C78100BD73D2 /* CircularGradient.swift */; };
+		49116B101FC2C78200BD73D2 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49116B081FC2C78100BD73D2 /* winning.mp3 */; };
+		49116B111FC2C78200BD73D2 /* coin07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49116B091FC2C78100BD73D2 /* coin07.mp3 */; };
+		49116B121FC2C78200BD73D2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49116B0A1FC2C78200BD73D2 /* Utilities.swift */; };
+		498E82EA1FC2D01000C24C7B /* ThreeRingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498E82E91FC2D01000C24C7B /* ThreeRingTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		49116AF21FC2C6E700BD73D2 /* ThreeRingControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeRingControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49116AF71FC2C6E700BD73D2 /* ThreeRingControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeRingControlTests.swift; sourceTree = "<group>"; };
 		49116AF91FC2C6E700BD73D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49116B031FC2C78100BD73D2 /* RingTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
+		49116B041FC2C78100BD73D2 /* Fanfare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fanfare.swift; sourceTree = "<group>"; };
+		49116B051FC2C78100BD73D2 /* ThreeRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingView.swift; sourceTree = "<group>"; };
+		49116B061FC2C78100BD73D2 /* RingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingLayer.swift; sourceTree = "<group>"; };
+		49116B071FC2C78100BD73D2 /* CircularGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularGradient.swift; sourceTree = "<group>"; };
+		49116B081FC2C78100BD73D2 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		49116B091FC2C78100BD73D2 /* coin07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin07.mp3; sourceTree = "<group>"; };
+		49116B0A1FC2C78200BD73D2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		498E82E91FC2D01000C24C7B /* ThreeRingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,14 @@
 		49116AEB1FC2C6E700BD73D2 /* ThreeRingControl */ = {
 			isa = PBXGroup;
 			children = (
+				49116B071FC2C78100BD73D2 /* CircularGradient.swift */,
+				49116B091FC2C78100BD73D2 /* coin07.mp3 */,
+				49116B041FC2C78100BD73D2 /* Fanfare.swift */,
+				49116B061FC2C78100BD73D2 /* RingLayer.swift */,
+				49116B031FC2C78100BD73D2 /* RingTip.swift */,
+				49116B051FC2C78100BD73D2 /* ThreeRingView.swift */,
+				49116B0A1FC2C78200BD73D2 /* Utilities.swift */,
+				49116B081FC2C78100BD73D2 /* winning.mp3 */,
 				49116AEC1FC2C6E700BD73D2 /* ThreeRingControl.h */,
 				49116AED1FC2C6E700BD73D2 /* Info.plist */,
 			);
@@ -80,6 +106,7 @@
 		49116AF61FC2C6E700BD73D2 /* ThreeRingControlTests */ = {
 			isa = PBXGroup;
 			children = (
+				498E82E91FC2D01000C24C7B /* ThreeRingTest.swift */,
 				49116AF71FC2C6E700BD73D2 /* ThreeRingControlTests.swift */,
 				49116AF91FC2C6E700BD73D2 /* Info.plist */,
 			);
@@ -148,6 +175,7 @@
 				TargetAttributes = {
 					49116AE81FC2C6E700BD73D2 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					49116AF11FC2C6E700BD73D2 = {
@@ -179,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49116B111FC2C78200BD73D2 /* coin07.mp3 in Resources */,
+				49116B101FC2C78200BD73D2 /* winning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +226,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49116B121FC2C78200BD73D2 /* Utilities.swift in Sources */,
+				49116B0B1FC2C78200BD73D2 /* RingTip.swift in Sources */,
+				49116B0D1FC2C78200BD73D2 /* ThreeRingView.swift in Sources */,
+				49116B0F1FC2C78200BD73D2 /* CircularGradient.swift in Sources */,
+				49116B0C1FC2C78200BD73D2 /* Fanfare.swift in Sources */,
+				49116B0E1FC2C78200BD73D2 /* RingLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498E82EA1FC2D01000C24C7B /* ThreeRingTest.swift in Sources */,
 				49116AF81FC2C6E700BD73D2 /* ThreeRingControlTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +371,7 @@
 		49116AFE1FC2C6E700BD73D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.whu.sun.ThreeRingControl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +394,7 @@
 		49116AFF1FC2C6E700BD73D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +416,7 @@
 		49116B011FC2C6E700BD73D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CBZ8Z3F6P;
 				INFOPLIST_FILE = ThreeRingControlTests/Info.plist;
@@ -390,6 +431,7 @@
 		49116B021FC2C6E700BD73D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CBZ8Z3F6P;
 				INFOPLIST_FILE = ThreeRingControlTests/Info.plist;
