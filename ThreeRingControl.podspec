@@ -82,8 +82,11 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :path => '.' }
+  #local source
+  # s.source       = { :path => '.' }
 
+  # remote source
+  s.source       = { :git => "https://github.com/sun2008mt/ThreeRingControl.git", :tag => "1.0.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
